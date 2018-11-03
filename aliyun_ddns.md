@@ -51,22 +51,22 @@ from aliyunsdkalidns.request.v20150109 import UpdateDomainRecordRequest, Describ
 from aliyunsdkcore import client
 
 #请填写你的Access Key ID
-access_key_id = "LTAIIMvbO3flWWpK"
+access_key_id = "KXXXXXXXXXXXXXXXXK\"
 
 #请填写你的Access Key Secret
-access_key_secret = "MCwezqc5zo6SxukKGcgpABUN7XtVba"
+access_key_secret = "KXXXXXXXXXXXXXXXX"
 
 #请填写你的账号ID
 account_id = "maintain"
 
 #请填写解析记录ID
-#rc_record_id = '4107268733097984'
+#rc_record_id = '410XXXXXXXXX'
 
 #请填写你的一级域名
-rc_domain = 'impresseco.com'
+rc_domain = 'presseco.com'
 
 #请填写你的解析记录,对应的主机记录
-#rc_rr = 'sh'
+#rc_rr = 'me'
 
 #请填写你的记录类型，DDNS请填写A，表示A记录
 #rc_type = 'A'
@@ -147,23 +147,23 @@ else:
 [root@S70 ~]# python aliyun_ddns.py
 Usage: aliyun_ddns.py <subdomain> <type> <NEW-IP>
 
-[root@S70 ~]# python aliyun_ddns.py sh A 106.106.161.132
-sh  ==>  4107268733097984
-sms  ==>  4095910775101440
-pay  ==>  4095910449387520
-get  sh  ==>  4107268733097984
-OLD IP :  106.106.161.132
-NEW IP :  106.106.161.132
+[root@S70 ~]# python aliyun_ddns.py sh A 106.106.106.106
+sh  ==>  KXXXXXXXXXXXXXXXX
+sms  ==>  KXXXXXXXXXXXXXXXX
+pay  ==>  KXXXXXXXXXXXXXXXX
+get  sh  ==>  KXXXXXXXXXXXXXXXX
+OLD IP :  106.106.106.106
+NEW IP :  106.106.106.106
 The specified value of parameter Value is the same as old
 
 [root@S70 ~]# python aliyun_ddns.py sh A 192.168.111.1
-sh  ==>  4107268733097984
-sms  ==>  4095910775101440
-pay  ==>  4095910449387520
-get  sh  ==>  4107268733097984
-OLD IP :  106.106.161.132
+sh  ==>  KXXXXXXXXXXXXXXXX
+sms  ==>  KXXXXXXXXXXXXXXXX
+pay  ==>  KXXXXXXXXXXXXXXXX
+get  sh  ==>  KXXXXXXXXXXXXXXXX
+OLD IP :  106.106.106.106
 NEW IP :  192.168.111.1
-{"RecordId":"4107268733097984","RequestId":"6F521E1E-FD6E-413B-818D-D539C767A114"}
+{"RecordId":"KXXXXXXXXXXXXXXXX","RequestId":"6F521E1E-FD6E-413B-XXXX-XXXXXXXX"}
 
 [root@S70 ~]# python aliyun_ddns.py sh A 106.106.161.132
 sh  ==>  4107268733097984
@@ -171,7 +171,7 @@ sms  ==>  4095910775101440
 pay  ==>  4095910449387520
 get  sh  ==>  4107268733097984
 OLD IP :  192.168.111.1
-NEW IP :  106.106.161.132
-{"RecordId":"4107268733097984","RequestId":"A05D2BB5-9629-4F15-8E7D-7FF18D00ECD4"}
+NEW IP :  106.106.106.106
+{"RecordId":"4107268733097984","RequestId":"A05D2BB5-9629-4F15-XXXX-XXXXXXXX"}
 
 ````````````````````````````````
